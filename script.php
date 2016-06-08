@@ -16,7 +16,4 @@ $result = $mgClient->sendMessage("$domain",
         'to'      => 'Amr Fayad <'.$to.'>',
         'subject' => $subject,
         'text'    => $content));
-var_dump($result);
-
-
 ?>
